@@ -9,7 +9,7 @@ def forage_herb():
         print(herb,"found!")
         herbs_collected.append(herb)
     else:
-        print("Connot find herb.")
+        print("Cannot find herb.")
 
 
 def cauldron(spell, herb):
