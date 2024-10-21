@@ -66,7 +66,7 @@ def menu():
         print("3. Sort list")
         print("4. Clear list")
         print("5. Quit")
-        while choice not in ["1", "2", "3", "4"]:
+        while choice not in ["1", "2", "3", "4", "5"]:
             choice = input("Enter choice: ")
         match choice:
             case "1":
